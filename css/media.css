@@ -1,0 +1,172 @@
+@media (max-width: 1650px) {
+    .features__wrapper {
+        padding: 0 200px 0 100px;
+    }
+}
+
+@media (max-width: 1500px) {
+    .features {
+        padding: 66px 0px 40px;
+    }
+    .features__wrapper {
+        text-align: center;
+        max-width: 700px;
+        margin: 0 auto 50px;
+        padding: 0 20px;
+    }
+    .features__image {
+        background-position: center;
+        max-width: 800px;
+        width: 100%;
+        margin: 0 auto;
+    }
+}
+
+@media (max-width: 1300px) {
+    .advantages__wrapper {
+        margin-left: 30px;
+        margin-right: 30px;
+    }
+}
+
+@media (max-width: 1170px) {
+    .advantages__site-row {
+        display: block;
+    }
+    .advantages-item {
+        max-width: 700px;
+        text-align: center;
+        background-position: center top;
+        margin: 0 auto;
+    }
+}
+
+@media (max-width: 950px) {
+    .site-footer {
+        padding: 45px 0;
+    }
+    .submenu {
+        max-width: 800px;
+        width: 100%;
+        margin: 0 auto 50px;
+    }
+    .site-footer__socials {
+        max-width: 350px;
+        text-align: center;
+        margin: 0 auto;
+    }
+    .site-footer__socials-icons {
+        justify-content: space-around;
+    }
+}
+
+@media (max-width: 900px) {
+    .site-header__link {
+        display: none;
+    }
+    .header__button {
+        display: none;
+    }
+    .site-header__side {
+        width: auto;
+    }
+    .header__submenu {
+        display: none;
+    }
+    .header__submenu.active {
+        display: none;
+    }
+}
+
+@media (max-width: 800px) {
+    .features__image {
+        width: 600px;
+        height: 500px;
+    }
+    .feedback__slider .slick-arrow.slick-prev {
+        left: 10%;
+    }
+    .feedback__slider .slick-arrow.slick-next {
+        right: 10%;
+    }
+    .feedback__slider-title {
+        font-size: 24px;
+    }
+    .feedback__slider-text {
+        font-size: 18px;
+        max-width: 400px;
+    }
+}
+
+@media (max-width: 700px) {
+    .features__wrapper-title {
+        font-size: 36px;
+    }
+    .features__wrapper-text {
+        font-size: 18px;
+    }
+}
+
+@media (max-width: 600px) {
+    .features__image {
+        width: 500px;
+        height: 400px;
+    }
+    .invites__title {
+        font-size: 35px;
+    }
+    .submenu__column {
+        max-width: 100%;
+        text-align: center;
+        margin-bottom: 30px;
+        align-items: center;
+    }
+}
+
+@media (max-width: 500px) {
+    .idea__title {
+        font-size: 45px;
+    }
+    .idea__text {
+        font-size: 18px;
+    }
+    .features__button {
+        display: block;
+        margin: 0 auto 15px;
+    }
+    .features__image {
+        display: none;
+    }
+    .invites__inner {
+        border: none;
+    }
+    .invites__inner-input {
+        width: 300px;
+        border: 2px solid #dadcdf;
+        border-radius: 25px;
+        margin: 0px auto 15px;
+    }
+    .invites__button {
+        margin: 0 auto;
+    }
+    .feedback__slider .slick-arrow.slick-prev {
+        display: none;
+    }
+    .feedback__slider .slick-arrow.slick-next {
+        display: none;
+    }
+    .feedback__slider-title {
+        font-size: 22px;
+    }
+    .feedback__slider-text {
+        font-size: 16px;
+        max-width: 350px;
+        padding: 0 15px;
+    }
+}
+
+@media (min-width: 900px) {
+    .mobile-menu.active {
+        display: none;
+    }
+}
